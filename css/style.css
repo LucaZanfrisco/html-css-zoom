@@ -1,10 +1,32 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* ------- */
 
+/* Common */
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+/* ------- */
+
+/* Header */
 header{
     background-color: #000;
+    color: white;
     height: 40px;
+}
+header .view{
+    text-align: right;
+    padding: 6px 5px;
+}
+.btn-view{
+    background-color: #4a4a4a;
+    display: inline-block;
+    padding: 5px 6px;
+    border-radius: 5px;
+    font-size: 13px;
 }
